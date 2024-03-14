@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "doctorplus es un app para agendar pacientes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachodiazcode/doctorplus-api.git"
+  },
+  "author": "nachodiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nachodiazcode/doctorplus-api/issues"
+  },
+  "homepage": "https://github.com/nachodiazcode/doctorplus-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1"
+  }
+}
